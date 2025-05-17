@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+      const hash = window.location.hash.substring(1); // remove the '#' symbol
+      if (hash) {
+        // Define your destination domain
+        const baseUrl = "https://rodtalad2.net/";
+
+        // Redirect
+        window.location.href = baseUrl + encodeURIComponent(hash);
+      }
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
